@@ -1,0 +1,36 @@
+20,21c20,21
+< "Cuadrillion (Demo)","~/Documents/Music/ez/cuadrillion-demo","drum","drum"
+< "Cuadrillion (Demo)","~/Documents/Music/ez/cuadrillion-demo","drum2","drum2"
+---
+> "Cuadrillion (Demo)","~/Documents/Music/ez/cuadrillion-demo","drum","cudrum"
+> "Cuadrillion (Demo)","~/Documents/Music/ez/cuadrillion-demo","drum2","cudrum2"
+27,30c27,30
+< "Haddeo (Remix)","~/Documents/Music/ez/haddeo-remix","bass","bass"
+< "Haddeo (Remix)","~/Documents/Music/ez/haddeo-remix","bass2","bass2"
+< "Haddeo (Remix)","~/Documents/Music/ez/haddeo-remix","drum","drum"
+< "Haddeo (Remix)","~/Documents/Music/ez/haddeo-remix","sn","sn"
+---
+> "Haddeo (Remix)","~/Documents/Music/ez/haddeo-remix","bass","hbass"
+> "Haddeo (Remix)","~/Documents/Music/ez/haddeo-remix","bass2","hbass2"
+> "Haddeo (Remix)","~/Documents/Music/ez/haddeo-remix","drum","hdrum"
+> "Haddeo (Remix)","~/Documents/Music/ez/haddeo-remix","sn","hsn"
+40,42c40,42
+< "Juliese","~/Documents/Music/ez/juliese","hh","hh"
+< "Juliese","~/Documents/Music/ez/juliese","k","k"
+< "Juliese","~/Documents/Music/ez/juliese","sn","sn"
+---
+> "Juliese","~/Documents/Music/ez/juliese","hh","jhh"
+> "Juliese","~/Documents/Music/ez/juliese","k","jk"
+> "Juliese","~/Documents/Music/ez/juliese","sn","jsn"
+56,60c56,60
+< "Pig's Nose EP","~/Documents/Music/ez/pigs-nose-ep","bass","bass"
+< "Pig's Nose EP","~/Documents/Music/ez/pigs-nose-ep","hh","hh"
+< "Pig's Nose EP","~/Documents/Music/ez/pigs-nose-ep","rm","rm"
+< "Pig's Nose EP","~/Documents/Music/ez/pigs-nose-ep","sn","sn"
+< "Pig's Nose EP","~/Documents/Music/ez/pigs-nose-ep","wobble","wobble"
+---
+> "Pig's Nose EP","~/Documents/Music/ez/pigs-nose-ep","bass","pigbass"
+> "Pig's Nose EP","~/Documents/Music/ez/pigs-nose-ep","hh","pighh"
+> "Pig's Nose EP","~/Documents/Music/ez/pigs-nose-ep","rm","pigrm"
+> "Pig's Nose EP","~/Documents/Music/ez/pigs-nose-ep","sn","pigsn"
+> "Pig's Nose EP","~/Documents/Music/ez/pigs-nose-ep","wobble","pigwobble"
