@@ -1,0 +1,49 @@
+# -*- mode: snippet -*-
+# name: livesetup
+# group: live
+# key: livesetup
+# expand-env: (yas-indent-line fixed)
+# --
+let bpm b = cps (b/60)
+    msil = mapM_ ($ silence)
+    bassP = (# gain 0.7) . (# hcutoff 485) . (# hresonance 0.001)
+    cf = slow 2
+    every' n o f = when ((== (o-1)) . (\`mod\` n)) f
+    d'drum = d1
+    d'perc = d2
+    d'print = d2
+    d'wobb = d2
+    d'bass = d3
+    -- d'gnome = d3
+    -- d'qs = d3
+    -- d'bass = d4
+    d'bleep = d4
+    d'eg = d4
+    d'gnome = d4
+    d'hand = d4
+    -- d'jbass = d4
+    d'qs = d4
+    d'fly = d5
+    d'gt = d5
+    d'jbass = d5
+    d'mons = d5
+    d'warb = d5
+    d'bass2 = d6
+    d'bz = d6
+    d'gt2 = d6
+    d'udu = d6
+    d'arpy = d7
+    d'casio = d7
+    d'gt3 = d7
+    d'pc = d7
+    d'shard = d7
+    d'arm = d8
+    d'misc = d8
+    d'pcl = d8
+    d'ql = d8
+    d'tr = d8
+    d'ant = d9
+    d'baa = d9
+    d'tac = d9
+    d'wbass = d9
+    d'cymb = d10
