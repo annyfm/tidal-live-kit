@@ -31,6 +31,6 @@ foreach ($projects as $project) {
         }
     }
     else {
-        printf("WARNING: Snippets path %s not found", $snippetsDir);
+        printf("WARNING: Snippets path %s not found\n", $snippetsDir);
     }
 }
