@@ -17,6 +17,9 @@ while ($data = fgetcsv($csv)) {
 fclose($csv);
 
 $projects = array_unique($projects);
+$projects = array_map(function($p) {
+    return str_replace("~", $_SERVER["HOME"], $p);
+}, $projects);
 
 foreach ($projects as $project) {
     $snippetsDir = "$project/snippets";

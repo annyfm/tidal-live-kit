@@ -9,7 +9,8 @@ $headings = fgetcsv($csv);
 
 while ($data = fgetcsv($csv)) {
     $row = array_combine($headings, $data);
-    $from = $row["Sample Path"] . "/samples/" . $row["Original Bank"];
+    $from = $row["Project Path"] . "/samples/" . $row["Original Bank"];
+    $from = str_replace("~", $_SERVER["HOME"], $from);
     $to = "$here/samples/" . $row["New Bank"];
     if (is_link($to)) {
         throw new Exception("$to exists");
