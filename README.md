@@ -50,7 +50,7 @@ The full list of changes at present is visible in [`samples.diff`](./samples.dif
 
 All projects include a `snippets/` directory containing YASnippet-compatible snippets representing blocks of key Tidal code.
 
-The [`sync-snippets.php`](./sync-snippets.php) script will look in the `snippets/` directory of each project and symlink snippets from there into [`snippets/haskell-mode/`](./snippets/haskell-mode/) here. It uses [`samples.csv`] to identify project paths. Note that no mapping is used for this as snippets are expected to be uniquely named.
+The [`sync-snippets.php`](./sync-snippets.php) script will look in the `snippets/` directory of each project and symlink snippets from there into [`snippets/haskell-mode/`](./snippets/haskell-mode/) here. It uses [`samples.csv`](./samples.csv) to identify project paths. Note that no mapping is used for this as snippets are expected to be uniquely named.
 
 To load the combined snippets directories, Emacs configuration must include these directories:
 
